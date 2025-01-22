@@ -225,6 +225,7 @@ const WorkCard = ({ data }: WorkCardInterface) => {
                       width="100%"
                       height={isExpanded ? 200 : 150}
                       onClick={() => window.open(modalData?.websiteUrl)}
+                      alt="card mobile"
                     />
                   ) : (
                     <img
@@ -232,6 +233,7 @@ const WorkCard = ({ data }: WorkCardInterface) => {
                       width="100%"
                       height={isExpanded ? 300 : 200}
                       onClick={() => window.open(modalData?.websiteUrl)}
+                      alt="card pc"
                     />
                   )}
                 </>
