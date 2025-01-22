@@ -6,7 +6,6 @@ import {
 } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { FiExternalLink, FiGithub, FiPlayCircle } from "react-icons/fi";
-import ReactPlayer from "react-player/youtube";
 import useIsMobile from "../../hooks/useIsMobile";
 import MacButtons from "./MacButtons";
 
