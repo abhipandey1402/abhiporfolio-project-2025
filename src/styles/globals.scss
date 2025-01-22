@@ -1,0 +1,105 @@
+$primary-orange: #f0732d;
+$white: #fff;
+$grey: #f2f2f2;
+$text-grey: #747474;
+$black: #111;
+$border-grey: #e7e7e7;
+
+:root {
+  --primary-orange: #f0732d;
+  --white: #fff;
+  --grey: #f2f2f2;
+  --text-grey: #747474;
+  --black: #111;
+  --border-grey: #e7e7e7;
+}
+
+[data-theme="dark"] {
+  --white: #111;
+  --black: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  margin: 0px;
+
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+  background-color: var(--white);
+  scroll-behavior: smooth;
+  transition: background-color 0.5s, color 0.5s;
+  // cursor: none;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+body {
+  padding: 16px;
+
+  &.no-scroll {
+    overflow: hidden !important;
+  }
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 64px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.black {
+  color: var(--black);
+}
+
+// on selection make text color as orange
+::selection {
+  background: lighten($primary-orange, 40%);
+  color: var(--primary-orange);
+}
+
+[data-theme="dark"] {
+  ::selection {
+    background: $black;
+  }
+}
+
+// make images non draggable
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    cursor: default !important;
+  }
+
+  .custom-mouse {
+    display: none !important;
+  }
+
+  .home-wrapper {
+    gap: 24px;
+    padding-bottom: 82px;
+  }
+}
