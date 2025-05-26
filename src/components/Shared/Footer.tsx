@@ -40,7 +40,7 @@ function Footer() {
     },
     {
       icon: <MdOutlineContactPage className="icon" />,
-      url: "https://drive.google.com/file/d/1fpID2-gDKKX9ZQdXSpYvfewmYggFpAhe/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1-O2Z7dmnsLn2EsX8b7G6-kx-RsvkvCVM/view?usp=sharing",
     },
   ];
 

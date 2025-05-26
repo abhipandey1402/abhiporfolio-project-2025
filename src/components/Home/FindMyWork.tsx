@@ -4,7 +4,7 @@ import Tabs from "./Tabs";
 import WorkCard from "./WorkCard";
 
 function FindMyWork() {
-  const tabs = ["Projects", "Published"];
+  const tabs = ["Projects"];
   const [activeTab, setActiveTab] = useState<number>(0);
   return (
     <div className="find-my-work" data-lenis-prevent id="work">

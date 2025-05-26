@@ -9,8 +9,8 @@ import podcastPlatform from '../assets/work-tab/personal/podcastPlatform.webp'
 import reactPractice from '../assets/work-tab/personal/reactPractice.webp'
 import typingSpeedTest from '../assets/work-tab/personal/typingSpeedTest.webp'
 
-import things18 from "../assets/work-tab/books/18-things.webp";
-import lockdownWars from "../assets/work-tab/books/lockdown-wars.webp";
+import skillora from "../assets/work-tab/personal/skillora.webp";
+import gudduEngineering from "../assets/work-tab/personal/gudduEngineering.webp";
 
 export const work = [
   [
@@ -43,6 +43,32 @@ export const work = [
         "infoHeading": "Enhancing Learning for Thousands of Students",
         "websiteUrl": "https://exampapers.ai/"
       }
+    },
+    {
+      cardData: {
+        title: "Skillora – Learn High Income Skills",
+        imgUrl: skillora,
+        url: { websiteUrl: "https://skillora.site/" },
+      },
+      modalData: {
+        title: "Skillora – Learn High Income Skills",
+        desc: "Master High-Income Skills with on-demand courses. From coding and AI automation to digital businesses, learn the exact skills that build careers and side hustles. <br/>Technologies Used: React Js, Tailwind CSS, Node.js, MongoDB.",
+        infoHeading: "Empowering Learners for the Digital Age",
+        websiteUrl: "https://skillora.site/",
+      },
+    },
+    {
+      cardData: {
+        title: "Guddu Engineering – Local Fabrication Business",
+        imgUrl: gudduEngineering,
+        url: { websiteUrl: "https://gudduengineering.netlify.app/" },
+      },
+      modalData: {
+        title: "Guddu Engineering – Local Fabrication Business",
+        desc: "Premium iron and aluminum fabrication solutions for residential, commercial, and agricultural needs. <br/>Technologies Used: HTML, CSS, JavaScript, React Js, Netlify.",
+        infoHeading: "Crafting Excellence in Metal Since 1995",
+        websiteUrl: "https://gudduengineering.netlify.app/",
+      },
     },
     {
       "cardData": {
@@ -149,32 +175,32 @@ export const work = [
         "websiteUrl": "https://podcast-platform-webapp.netlify.app/"
       }
     }
-  ],  
-  [
-    {
-      cardData: {
-        title: "Books I Have Published.",
-        imgUrl: things18,
-        url: null,
-      },
-      modalData: {
-        title: "Books I have Published",
-        desc: "I have published 2 books on Amazon. One is a self help book called Realis Reality (written when I was 16) and the other is called 18 things I have learned at 18 - which is about life lessons from an 18 year old.",
-        infoHeading: "Books",
-      },
-    },
-
-    {
-      cardData: {
-        title: "My Podcast - Lockdown Wars.",
-        imgUrl: lockdownWars,
-        url: null,
-      },
-      modalData: {
-        title: "Lockdown Wars Podcast",
-        desc: "A podcast started by me and my friends during the lockdown to help people fight boredom. Instead of it being about us, the podcast was about people coming on the platform and showing their talent",
-        infoHeading: "With Over 100,000+ Streams in 2 months",
-      },
-    },
   ],
+  // [
+  //   {
+  //     cardData: {
+  //       title: "Books I Have Published.",
+  //       imgUrl: things18,
+  //       url: null,
+  //     },
+  //     modalData: {
+  //       title: "Books I have Published",
+  //       desc: "I have published 2 books on Amazon. One is a self help book called Realis Reality (written when I was 16) and the other is called 18 things I have learned at 18 - which is about life lessons from an 18 year old.",
+  //       infoHeading: "Books",
+  //     },
+  //   },
+
+  //   {
+  //     cardData: {
+  //       title: "My Podcast - Lockdown Wars.",
+  //       imgUrl: lockdownWars,
+  //       url: null,
+  //     },
+  //     modalData: {
+  //       title: "Lockdown Wars Podcast",
+  //       desc: "A podcast started by me and my friends during the lockdown to help people fight boredom. Instead of it being about us, the podcast was about people coming on the platform and showing their talent",
+  //       infoHeading: "With Over 100,000+ Streams in 2 months",
+  //     },
+  //   },
+  // ],
 ];
