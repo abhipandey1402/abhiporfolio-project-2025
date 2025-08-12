@@ -11,6 +11,7 @@ import typingSpeedTest from '../assets/work-tab/personal/typingSpeedTest.webp'
 
 import skillora from "../assets/work-tab/personal/skillora.webp";
 import gudduEngineering from "../assets/work-tab/personal/gudduEngineering.webp";
+import prepforge from "../assets/work-tab/personal/prepforge.webp";
 
 export const work = [
   [
@@ -27,6 +28,21 @@ export const work = [
         "desc": "An AI-powered recruitment solution that streamlines hiring processes for enterprises. <br/>Technologies Used: React JS, Java, MongoDB, AWS.",
         "infoHeading": "Serving Fortune 500 Companies",
         "websiteUrl": "https://ai.regortalent.com"
+      }
+    },
+    {
+      "cardData": {
+        "title": "PrepForge: AI Powered Leetcode Companion",
+        "imgUrl": prepforge,
+        "url": {
+          "websiteUrl": "https://www.prepforge.space"
+        }
+      },
+      "modalData": {
+        "title": "PrepForge",
+        "desc": "Master LeetCode with AI-powered insights & effortless submission tracking. PrepForge analyzes your past submissions to deliver topic-based performance insights, helping you focus on the areas that matter most. <br/>Technologies Used: JavaScript, TypeScript, React.js, Node.js, MongoDB, AWS, Langchain, Langgraph, Agentic AI, OpenAI API.",
+        "infoHeading": "Personalized LeetCode Mastery",
+        "websiteUrl": "https://www.prepforge.space"
       }
     },
     {
